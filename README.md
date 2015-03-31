@@ -6,7 +6,7 @@ Pass on touch events to the UIView \ UIButton underneath your current view if yo
 Useful if you don't want to catch all touch events on UIViews \ UIButtons with a non squareish appearance. 
 
 <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/3911009/6920114/2f7f4d9e-d7c5-11e4-941f-f8621ce1bf03.gif">
+  <img src="https://cloud.githubusercontent.com/assets/3911009/6928282/ab77681a-d7fb-11e4-9721-4da596eacd64.gif">
 </p>
 
 Overview
@@ -39,7 +39,7 @@ Installation With CocoaPods
 Manual Installation
 ------------------
 
-Just drag all files to your project.
+Just drag the SSAlphaPass folder to your project.
 
 How to use
 ----------
