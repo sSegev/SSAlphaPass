@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B6A7F631ACB34D300901CCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A7F621ACB34D300901CCF /* main.m */; };
+		9B6A7F661ACB34D300901CCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A7F651ACB34D300901CCF /* AppDelegate.m */; };
+		9B6A7F691ACB34D300901CCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A7F681ACB34D300901CCF /* ViewController.m */; };
+		9B6A7F6C1ACB34D300901CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6A7F6A1ACB34D300901CCF /* Main.storyboard */; };
+		9B6A7F6E1ACB34D300901CCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6A7F6D1ACB34D300901CCF /* Images.xcassets */; };
+		9B6A7F711ACB34D300901CCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B6A7F6F1ACB34D300901CCF /* LaunchScreen.xib */; };
+		9B6A7F8D1ACB34E800901CCF /* SSAlphaPass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A7F881ACB34E800901CCF /* SSAlphaPass.m */; };
+		9B6A7F8E1ACB34E800901CCF /* SSAlphaPassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A7F8A1ACB34E800901CCF /* SSAlphaPassButton.m */; };
+		9B6A7F8F1ACB34E800901CCF /* SSAlphaPassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A7F8C1ACB34E800901CCF /* SSAlphaPassView.m */; };
+		9B6A7F911ACB353800901CCF /* Giraffe.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6A7F901ACB353800901CCF /* Giraffe.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B6A7F5D1ACB34D300901CCF /* SSAlphaPassExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSAlphaPassExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6A7F611ACB34D300901CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6A7F621ACB34D300901CCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B6A7F641ACB34D300901CCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B6A7F651ACB34D300901CCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B6A7F671ACB34D300901CCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B6A7F681ACB34D300901CCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B6A7F6B1ACB34D300901CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B6A7F6D1ACB34D300901CCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B6A7F701ACB34D300901CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9B6A7F871ACB34E800901CCF /* SSAlphaPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlphaPass.h; sourceTree = "<group>"; };
+		9B6A7F881ACB34E800901CCF /* SSAlphaPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlphaPass.m; sourceTree = "<group>"; };
+		9B6A7F891ACB34E800901CCF /* SSAlphaPassButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlphaPassButton.h; sourceTree = "<group>"; };
+		9B6A7F8A1ACB34E800901CCF /* SSAlphaPassButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlphaPassButton.m; sourceTree = "<group>"; };
+		9B6A7F8B1ACB34E800901CCF /* SSAlphaPassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlphaPassView.h; sourceTree = "<group>"; };
+		9B6A7F8C1ACB34E800901CCF /* SSAlphaPassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlphaPassView.m; sourceTree = "<group>"; };
+		9B6A7F901ACB353800901CCF /* Giraffe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Giraffe.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B6A7F5A1ACB34D300901CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B6A7F541ACB34D300901CCF = {
+			isa = PBXGroup;
+			children = (
+				9B6A7F5F1ACB34D300901CCF /* SSAlphaPassExample */,
+				9B6A7F5E1ACB34D300901CCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B6A7F5E1ACB34D300901CCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6A7F5D1ACB34D300901CCF /* SSAlphaPassExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B6A7F5F1ACB34D300901CCF /* SSAlphaPassExample */ = {
+			isa = PBXGroup;
+			children = (
+				9B6A7F861ACB34E800901CCF /* SSAlphaPass */,
+				9B6A7F641ACB34D300901CCF /* AppDelegate.h */,
+				9B6A7F651ACB34D300901CCF /* AppDelegate.m */,
+				9B6A7F671ACB34D300901CCF /* ViewController.h */,
+				9B6A7F681ACB34D300901CCF /* ViewController.m */,
+				9B6A7F6A1ACB34D300901CCF /* Main.storyboard */,
+				9B6A7F6D1ACB34D300901CCF /* Images.xcassets */,
+				9B6A7F6F1ACB34D300901CCF /* LaunchScreen.xib */,
+				9B6A7F601ACB34D300901CCF /* Supporting Files */,
+			);
+			path = SSAlphaPassExample;
+			sourceTree = "<group>";
+		};
+		9B6A7F601ACB34D300901CCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B6A7F901ACB353800901CCF /* Giraffe.png */,
+				9B6A7F611ACB34D300901CCF /* Info.plist */,
+				9B6A7F621ACB34D300901CCF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B6A7F861ACB34E800901CCF /* SSAlphaPass */ = {
+			isa = PBXGroup;
+			children = (
+				9B6A7F871ACB34E800901CCF /* SSAlphaPass.h */,
+				9B6A7F881ACB34E800901CCF /* SSAlphaPass.m */,
+				9B6A7F891ACB34E800901CCF /* SSAlphaPassButton.h */,
+				9B6A7F8A1ACB34E800901CCF /* SSAlphaPassButton.m */,
+				9B6A7F8B1ACB34E800901CCF /* SSAlphaPassView.h */,
+				9B6A7F8C1ACB34E800901CCF /* SSAlphaPassView.m */,
+			);
+			path = SSAlphaPass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B6A7F5C1ACB34D300901CCF /* SSAlphaPassExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6A7F801ACB34D300901CCF /* Build configuration list for PBXNativeTarget "SSAlphaPassExample" */;
+			buildPhases = (
+				9B6A7F591ACB34D300901CCF /* Sources */,
+				9B6A7F5A1ACB34D300901CCF /* Frameworks */,
+				9B6A7F5B1ACB34D300901CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSAlphaPassExample;
+			productName = SSAlphaPassExample;
+			productReference = 9B6A7F5D1ACB34D300901CCF /* SSAlphaPassExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B6A7F551ACB34D300901CCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Segev;
+				TargetAttributes = {
+					9B6A7F5C1ACB34D300901CCF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 9B6A7F581ACB34D300901CCF /* Build configuration list for PBXProject "SSAlphaPassExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B6A7F541ACB34D300901CCF;
+			productRefGroup = 9B6A7F5E1ACB34D300901CCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B6A7F5C1ACB34D300901CCF /* SSAlphaPassExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B6A7F5B1ACB34D300901CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6A7F6C1ACB34D300901CCF /* Main.storyboard in Resources */,
+				9B6A7F711ACB34D300901CCF /* LaunchScreen.xib in Resources */,
+				9B6A7F911ACB353800901CCF /* Giraffe.png in Resources */,
+				9B6A7F6E1ACB34D300901CCF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6A7F591ACB34D300901CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6A7F8F1ACB34E800901CCF /* SSAlphaPassView.m in Sources */,
+				9B6A7F8E1ACB34E800901CCF /* SSAlphaPassButton.m in Sources */,
+				9B6A7F691ACB34D300901CCF /* ViewController.m in Sources */,
+				9B6A7F661ACB34D300901CCF /* AppDelegate.m in Sources */,
+				9B6A7F631ACB34D300901CCF /* main.m in Sources */,
+				9B6A7F8D1ACB34E800901CCF /* SSAlphaPass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B6A7F6A1ACB34D300901CCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6A7F6B1ACB34D300901CCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B6A7F6F1ACB34D300901CCF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6A7F701ACB34D300901CCF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B6A7F7E1ACB34D300901CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B6A7F7F1ACB34D300901CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B6A7F811ACB34D300901CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSAlphaPassExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B6A7F821ACB34D300901CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SSAlphaPassExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B6A7F581ACB34D300901CCF /* Build configuration list for PBXProject "SSAlphaPassExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6A7F7E1ACB34D300901CCF /* Debug */,
+				9B6A7F7F1ACB34D300901CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6A7F801ACB34D300901CCF /* Build configuration list for PBXNativeTarget "SSAlphaPassExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6A7F811ACB34D300901CCF /* Debug */,
+				9B6A7F821ACB34D300901CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B6A7F551ACB34D300901CCF /* Project object */;
+}
