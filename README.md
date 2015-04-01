@@ -5,12 +5,14 @@ Pass on touch events to the UIView \ UIButton underneath your current view if yo
 
 Useful if you don't want to catch all touch events on UIViews \ UIButtons with a non squareish appearance. 
 
+GIF
+--------
+As you can see in the GIF, the Giraffe button is a simple rectangle but touch events on transparent areas are passed on to the yellow UIButton underneath.
+
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/3911009/6928282/ab77681a-d7fb-11e4-9721-4da596eacd64.gif">
 </p>
 
-Overview
---------
 
 
 Features
