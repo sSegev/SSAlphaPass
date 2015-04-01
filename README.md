@@ -13,30 +13,14 @@ As you can see in the GIF, the Giraffe button is a simple rectangle but touch ev
   <img src="https://cloud.githubusercontent.com/assets/3911009/6928282/ab77681a-d7fb-11e4-9721-4da596eacd64.gif">
 </p>
 
-
-
-Features
---------
-
-
-
 Requirements
 ------------
 - iOS 5+ 
 
-Screenshot (The GIF above will explain a lot more)
------------
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/3911009/6920194/bd439892-d7c5-11e4-97c9-3220486f3eda.png">
-</p>
 
 Why?
 ---
-
-
-Installation With CocoaPods
----------------------------
-
+I was in a need for a UIButton that will pass on touch events on transparent areas. This class does just that.
 
 Manual Installation
 ------------------
