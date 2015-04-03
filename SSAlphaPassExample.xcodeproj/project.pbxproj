@@ -12,7 +12,6 @@
 		9B6A7F691ACB34D300901CCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A7F681ACB34D300901CCF /* ViewController.m */; };
 		9B6A7F6C1ACB34D300901CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6A7F6A1ACB34D300901CCF /* Main.storyboard */; };
 		9B6A7F6E1ACB34D300901CCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6A7F6D1ACB34D300901CCF /* Images.xcassets */; };
-		9B6A7F711ACB34D300901CCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B6A7F6F1ACB34D300901CCF /* LaunchScreen.xib */; };
 		9B6A7F8D1ACB34E800901CCF /* SSAlphaPass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A7F881ACB34E800901CCF /* SSAlphaPass.m */; };
 		9B6A7F8E1ACB34E800901CCF /* SSAlphaPassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A7F8A1ACB34E800901CCF /* SSAlphaPassButton.m */; };
 		9B6A7F8F1ACB34E800901CCF /* SSAlphaPassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A7F8C1ACB34E800901CCF /* SSAlphaPassView.m */; };
@@ -29,7 +28,6 @@
 		9B6A7F681ACB34D300901CCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9B6A7F6B1ACB34D300901CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B6A7F6D1ACB34D300901CCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		9B6A7F701ACB34D300901CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9B6A7F871ACB34E800901CCF /* SSAlphaPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlphaPass.h; sourceTree = "<group>"; };
 		9B6A7F881ACB34E800901CCF /* SSAlphaPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSAlphaPass.m; sourceTree = "<group>"; };
 		9B6A7F891ACB34E800901CCF /* SSAlphaPassButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAlphaPassButton.h; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 				9B6A7F681ACB34D300901CCF /* ViewController.m */,
 				9B6A7F6A1ACB34D300901CCF /* Main.storyboard */,
 				9B6A7F6D1ACB34D300901CCF /* Images.xcassets */,
-				9B6A7F6F1ACB34D300901CCF /* LaunchScreen.xib */,
 				9B6A7F601ACB34D300901CCF /* Supporting Files */,
 			);
 			path = SSAlphaPassExample;
@@ -163,7 +160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B6A7F6C1ACB34D300901CCF /* Main.storyboard in Resources */,
-				9B6A7F711ACB34D300901CCF /* LaunchScreen.xib in Resources */,
 				9B6A7F911ACB353800901CCF /* Giraffe.png in Resources */,
 				9B6A7F6E1ACB34D300901CCF /* Images.xcassets in Resources */,
 			);
@@ -194,14 +190,6 @@
 				9B6A7F6B1ACB34D300901CCF /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9B6A7F6F1ACB34D300901CCF /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B6A7F701ACB34D300901CCF /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -322,6 +310,7 @@
 				9B6A7F821ACB34D300901CCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
